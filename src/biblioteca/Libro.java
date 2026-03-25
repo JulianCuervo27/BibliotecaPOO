@@ -47,8 +47,8 @@ public class Libro {
 
     public void mostrarDatosLibro(){
         System.out.println("---- Datos Libro");
-        System.out.println("- Codigo Libro: " + getCodigoLibro())
-        System.out.println("---- Datos Libro")
-        System.out.println("---- Datos Libro")
+        System.out.println("- Codigo Libro: " + getCodigoLibro());
+        System.out.println("---- Datos Libro");
+        System.out.println("---- Datos Libro");
     }
 }
