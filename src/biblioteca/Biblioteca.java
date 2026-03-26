@@ -25,10 +25,10 @@ public class Biblioteca {
         bibliotecario1.registrarDevolucion(prestamo1);
         System.out.println("Libro disponible? " + libro1.isDisponible());
 
+        // SE REGISTRA EL SEGUNDO PRESTAMO
         System.out.println();
         Date hoy = new Date();
         Prestamo prestamo2 = estudiante2.solicitarPrestamo(libro2, hoy, null);
         prestamo2.mostrarInformacionPrestamo();
     }
-    
 }
