@@ -27,7 +27,7 @@ public class Bibliotecario extends Persona{
 
     public void registrarDevolucion(Prestamo prestamo){
         prestamo.setFechaDevolucion(new Date());
-        prestamo.getLibro().isDisponible(true);
+        prestamo.getLibro().setDisponible(true);
         System.out.println("Devolucion registrada para el prestamo: " + prestamo.getIdPrestamo());
     }
 }

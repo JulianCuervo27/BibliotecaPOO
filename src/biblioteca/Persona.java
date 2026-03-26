@@ -5,7 +5,7 @@ public class Persona {
     private String nombre;
     private String correo;
 
-public persona (String id, String nombre, String correo){
+public Persona (String id, String nombre, String correo){
     this.id = id;
     this.nombre = nombre;
     this.correo = correo;
